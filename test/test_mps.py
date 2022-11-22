@@ -7341,6 +7341,7 @@ class TestConsistency(TestCase):
         'rad2deg': ['b8', 'f16', 'f32', 'i16', 'i32', 'i64', 'u8'],
         'real': ['b8', 'f16', 'f32', 'i16', 'i32', 'i64', 'u8'],
         'reciprocal': ['f16', 'f32', 'i16', 'i32', 'u8'],
+        'remainder' : ['f32', 'f16'],
         'repeat': ['f16', 'f32', 'i16', 'i32', 'i64', 'u8'],
         'repeat_interleave': ['b8',
                               'f16',
